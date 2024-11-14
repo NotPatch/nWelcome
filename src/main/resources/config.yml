@@ -1,0 +1,44 @@
+license-key: ""
+
+groups:
+  admin:
+    group-permission: "nwelcome.group.admin"
+    #TOAST, TITLE, ACTIONBAR, CHAT, BOSSBAR
+    messageType: [TITLE, TOAST]
+    chat:
+      - ""
+      - "#bd2c22Bir yönetici oyuna katıldı, #700e07%player% #bd2c22hoş geldin."
+      - ""
+    title:
+      line-1: "#bd2c22%player%"
+      line-2: "&fHoş geldin"
+      fadeIn: 10
+      fadeOut: 10
+      stay: 10
+    actionbar: "#ffffffBir yönetici katıldı!"
+    bossbar:
+      message: "Bossbar"
+      #BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+      color: "WHITE"
+      #SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20, SOLID
+      style: "SEGMENTED_6"
+      #0.0 - 1.0
+      progress: 1
+      #Second type
+      duration: 5
+    toast:
+      #GOAL, CHALLENGE, TASK
+      frame: "CHALLENGE"
+      #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/material/package-summary.html
+      icon: "DIAMOND"
+      title: "#bd2c22Bir yönetici katıldı"
+  #
+  oyuncu:
+    group-permission: "nwelcome.group.oyuncu"
+    messageType: [CHAT]
+    chat:
+      - ""
+      - "#bd2c22%player% #700e07hoş geldin."
+      - ""
+
+

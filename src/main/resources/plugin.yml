@@ -1,0 +1,11 @@
+name: nWelcome
+version: '1.0-SNAPSHOT'
+main: com.notpatch.nWelcome.NWelcome
+api-version: '1.21'
+authors: [ NotPatch ]
+website: www.hazelands.net
+
+commands:
+    nwelcome:
+        description: nWelcome command
+        aliases: [nw]
