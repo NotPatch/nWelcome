@@ -6,6 +6,9 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 
 import java.util.UUID;
+/**
+   From kangarko
+**/
 
 public final class Toast {
 
